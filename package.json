@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "Hello world for server with express+pug",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ServerClash/nodejs-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ServerClash/nodejs-server/issues"
+  },
+  "homepage": "https://github.com/ServerClash/nodejs-server#readme"
+}
