@@ -2,22 +2,25 @@
   "name": "nodejs-server",
   "version": "1.0.0",
   "description": "Hello world for server with express+pug",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.14.0",
-    "pug": "^2.0.0-beta6"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ServerClash/nodejs-server/issues"
   },
-  "devDependencies": {},
+  "homepage": "https://github.com/ServerClash/nodejs-server#readme",
+  "bin": {
+    "nodejs-benchmark": "./server.js"
+  },
+  "main": "server.js",
   "scripts": {
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ServerClash/nodejs-server.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ServerClash/nodejs-server/issues"
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
   },
-  "homepage": "https://github.com/ServerClash/nodejs-server#readme"
+  "devDependencies": {}
 }
