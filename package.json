@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/ServerClash/nodejs-benchmark/issues"
   },
-  "homepage": "https://github.com/ServerClash/nodejs-benchmark#readme",
+  "homepage": "https://serverclash.com",
   "bin": {
     "nodejs-benchmark": "./server.js"
   },
