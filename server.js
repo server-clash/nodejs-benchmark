@@ -5,8 +5,8 @@
 const express = require("express");
 const app = express();
 
-app.set("views", "./")
-app.set("view engine", "pug")
+app.set("views", __dirname + "/");
+app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
     res.render("index", {
