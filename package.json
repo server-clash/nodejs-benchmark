@@ -1,6 +1,6 @@
 {
   "name": "nodejs-benchmark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hello world for server with express+pug",
   "author": "",
   "license": "MIT",
@@ -12,8 +12,7 @@
     "nodejs-benchmark": "./server.js"
   },
   "main": "server.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ServerClash/nodejs-benchmark.git"
