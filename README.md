@@ -1,7 +1,17 @@
-# "Hello world" server
+# nodejs-benchmark
 
-Prerequisites:
+> Made for benchmarking purposes.
+
+### Prerequisites:
 - express >= 4.14.0
 - pug >= 2.0.0-beta6
 
-Made for benchmarking purposes.
+### Installation
+```shell
+$ npm install -g nodejs-benchmark
+```
+
+### Usage
+```shell
+$ nodejs-benchmark
+```
