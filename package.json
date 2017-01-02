@@ -2,7 +2,7 @@
   "name": "nodejs-benchmark",
   "version": "1.0.1",
   "description": "Hello world for server with express+pug",
-  "author": "",
+  "author": "Przemyslaw Tomaszewski <hi@bipho.be>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ServerClash/nodejs-benchmark/issues"
