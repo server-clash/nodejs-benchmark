@@ -1,13 +1,13 @@
 {
-  "name": "nodejs-server",
+  "name": "nodejs-benchmark",
   "version": "1.0.0",
   "description": "Hello world for server with express+pug",
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ServerClash/nodejs-server/issues"
+    "url": "https://github.com/ServerClash/nodejs-benchmark/issues"
   },
-  "homepage": "https://github.com/ServerClash/nodejs-server#readme",
+  "homepage": "https://github.com/ServerClash/nodejs-benchmark#readme",
   "bin": {
     "nodejs-benchmark": "./server.js"
   },
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ServerClash/nodejs-server.git"
+    "url": "git+https://github.com/ServerClash/nodejs-benchmark.git"
   },
   "dependencies": {
     "express": "^4.14.0",
