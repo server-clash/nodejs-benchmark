@@ -1,6 +1,6 @@
 {
   "name": "nodejs-benchmark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hello world for server with express+pug",
   "author": "Przemyslaw Tomaszewski <hi@bipho.be>",
   "license": "MIT",
@@ -17,7 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/ServerClash/nodejs-benchmark.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
