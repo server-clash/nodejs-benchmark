@@ -2,16 +2,16 @@
 
 "use strict";
 
-const express = require("express");
-const app = express();
+const Benchmark = require("./src/Benchmark.js");
+const http = require("http");
 
-app.set("views", __dirname + "/");
-app.set("view engine", "pug");
+const server = http.createServer((req, res) => {
+    const benchmark = new Benchmark();
 
-app.get("/", (req, res) => {
-    res.render("index", {
-        content: "Hello world"
-    });
+    benchmark.run()
+
+    res.writeHead(200);
+    res.end();
 });
 
-app.listen(3331);
+server.listen(3331);
