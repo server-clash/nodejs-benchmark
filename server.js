@@ -2,16 +2,26 @@
 
 "use strict";
 
-const Benchmark = require("./src/Benchmark.js");
+const cluster = require("cluster");
 const http = require("http");
+const os = require("os");
 
-const server = http.createServer((req, res) => {
-    const benchmark = new Benchmark();
+const Benchmark = require("./src/Benchmark.js");
 
-    benchmark.run()
+if (cluster.isMaster) {
+    for (let i = 0; i < os.cpus().length; i++) {
+        cluster.fork();
+    }
 
-    res.writeHead(200);
-    res.end();
-});
+    cluster.on("exit", () => {
+        cluster.fork();
+    });
+} else {
+    http.createServer((req, res) => {
+        const benchmark = new Benchmark();
+        benchmark.run()
 
-server.listen(3331);
+        res.writeHead(200);
+        res.end();
+    }).listen(3331);
+}
